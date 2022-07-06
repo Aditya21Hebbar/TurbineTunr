@@ -19,3 +19,4 @@ chrome_options.add_argument('--headers')
 chrome_options.add_argument('--disable-dev-shm-usage')
 driver = webdriver.Chrome(options=chrome_options,desired_capabilities=capabilities)
 driver.maximize_window()
+#setupdone
